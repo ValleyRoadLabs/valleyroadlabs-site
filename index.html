@@ -12,6 +12,8 @@
   body { margin:0; min-height:100vh; display:flex; flex-direction:column; background:var(--bg); color:var(--fg);
          font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
   main { flex:1; width:100%; max-width:40rem; margin:0 auto; padding:12vh 1.25rem 3rem; }
+  h2 { font-size:1.15rem; font-weight:600; margin:2.25rem 0 .6rem; color:var(--accent); }
+  ul { margin:0 0 1.25rem; padding-left:1.2rem; } li { margin:0 0 .5rem; }
   h1 { font-size:2rem; font-weight:600; margin:0 0 .25rem; letter-spacing:-.01em; }
   .tag { color:var(--muted); margin:0 0 2.5rem; }
   p { margin:0 0 1.25rem; }
@@ -26,11 +28,28 @@
 <body>
 <main>
   <h1>Valley Road Labs</h1>
-  <p class="tag">Valley Road Labs Limited</p>
-  <p>We are a technology company based in Dublin, Ireland. We design and build connected products and the software that runs them.</p>
-  <p>Our current product is <a href="https://hummm.global">hummm</a>, a privacy-first presence monitoring service that helps families look after older relatives, with no cameras, wearables or microphones.</p>
+  <p class="tag">Valley Road Labs Limited &middot; Dublin, Ireland</p>
+
+  <p>Valley Road Labs is a technology company that designs and builds connected devices and the cloud software behind them. We work across embedded firmware, IoT data platforms and the apps people use to understand what their devices are telling them.</p>
+
+  <h2>Our product: hummm</h2>
+  <p><a href="https://hummm.global">hummm</a> is a privacy-first presence monitoring service for families who want to look after an older relative living independently. It uses small mmWave radar sensors placed in the home to understand everyday routines and flag changes that may need attention.</p>
+  <ul>
+    <li><strong>No cameras, wearables or microphones.</strong> Nothing to wear, charge or remember.</li>
+    <li><strong>Peace of mind.</strong> A clear picture of how a loved one's day is going.</li>
+    <li><strong>Early insights.</strong> Gentle notice of changes in routine before they become problems.</li>
+  </ul>
+
+  <h2>What we build</h2>
+  <ul>
+    <li>Sensor firmware and over-the-air update infrastructure</li>
+    <li>Cloud data pipelines and dashboards built on ThingsBoard</li>
+    <li>Caregiver apps for iOS and the web</li>
+  </ul>
+
+  <h2>Company information</h2>
   <dl>
-    <div><dt>Company</dt><dd>Valley Road Labs Limited</dd></div>
+    <div><dt>Legal name</dt><dd>Valley Road Labs Limited</dd></div>
     <div><dt>Registered office</dt><dd>56 Raglan Lane, Dublin D04 R9T8, Ireland</dd></div>
     <div><dt>Registered in</dt><dd>Ireland, company no. 787259</dd></div>
     <div><dt>Contact</dt><dd><a href="mailto:db@valleyroadlabs.com">db@valleyroadlabs.com</a></dd></div>
